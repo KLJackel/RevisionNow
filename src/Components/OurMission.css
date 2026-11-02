@@ -1,0 +1,60 @@
+root {
+  --background-color: #fcefc8;
+  --text-color: rgb(100, 126, 109);
+  --button-background-color: rgba(163, 193, 173, 0.5);
+  --button-hover: rgba(163, 193, 173, 0.8);
+}
+
+.ourMission {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: var(--text-color);
+    width: 75dvw;
+    padding: 0 15px 30px 15px;
+    border-radius: 15px;
+    
+}
+
+.om-header {
+    margin-bottom: 20px;
+    color: var(--background-color);
+    text-align: center;
+}
+
+.om-description {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: var(--background-color);
+
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-size: 1.5rem;
+    color: var(--background-color);
+
+}
+
+.close-btn:hover {
+    background-color: #fcefc8;
+    border-radius: 15px;
+    color: var(--text-color);
+}
+
+
+

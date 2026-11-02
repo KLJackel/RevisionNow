@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #fcefc8;
+  --text-color: rgb(100, 126, 109);
+  --button-background-color: rgba(163, 193, 173, 0.5);
+  --button-hover: rgba(163, 193, 173, 0.8);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.score {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--text-color);
+}
+
+.btn {
+  background-color: var(--button-background-color);
+  width: 80dvw;
+  border: var(--button-background-color) solid 1px;
+  color: var(--text-color);
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: var(--button-hover);
+  color: whitesmoke;
+  border: white solid 1px;
+}
+
+.btn-begin {
+  background-color: var(--button-background-color);
+  color: var(--text-color);
+  width: 50%;
+  padding: 20px 20px;
+}
+
+.btn-begin:hover {
+  background-color: var(--button-hover);
+  color: rgb(255, 254, 254);
+  border: white solid 1px;
+}
+
+.btn-restart {
+  background-color: var(--button-background-color);
+  color: whitesmoke;
+  width:fit-content;
+  border: var(--button-background-color) solid 1px;
+}
+
+.btn-restart:hover {
+  background-color: var(--button-hover);
+  color: rgb(255, 254, 254);
+  border: white solid 1px;
+}
+.question-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80dvw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.question-container p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.question-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.wrong-answer {
+  display: flex;
+  width: 75dvw;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-radius: 25px;
+}
+
+.wrong-answer p {
+  color: white;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.welcome-message {
+  width: 75dvw;
+  padding: 25px;
+  text-align: center;
+  color: var(--text-color);
+  font-weight: bold;
+  border-radius: 25px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+.welcome-message p {
+  margin: 10px 0;
+  font-size: 18px;
+}
